@@ -24,10 +24,10 @@ AI Implementation Specialist based in Montreal. I build AI systems that solve re
 
 | Repo | What | Highlights |
 |------|------|------------|
-| [forensic-bookkeeping-pipeline](https://github.com/USERNAME/forensic-bookkeeping-pipeline) | Financial forensics in Python | 13K txns, 99% PDF accuracy, 98% reconciliation |
-| [restaurant-ai-agents](https://github.com/USERNAME/restaurant-ai-agents) | Multi-agent business intelligence | 3 agent teams (4 agents each), production-tested |
-| [ai-hr-chatbot](https://github.com/USERNAME/ai-hr-chatbot) | Full-stack AI SaaS | Next.js + Claude API + Supabase, bilingual |
-| [restaurant-lead-scraper](https://github.com/USERNAME/restaurant-lead-scraper) | Automated B2B lead generation | 920 leads scraped, quality scoring, 95% phone capture |
+| [forensic-bookkeeping-pipeline](https://github.com/pascal-gonsales/forensic-bookkeeping-pipeline) | Financial forensics in Python | 13K txns, 99% PDF accuracy, 98% reconciliation |
+| [restaurant-ai-agents](https://github.com/pascal-gonsales/restaurant-ai-agents) | Multi-agent business intelligence | 3 agent teams (4 agents each), production-tested |
+| [ai-hr-chatbot](https://github.com/pascal-gonsales/ai-hr-chatbot) | Full-stack AI SaaS | Next.js + Claude API + Supabase, bilingual |
+| [restaurant-lead-scraper](https://github.com/pascal-gonsales/restaurant-lead-scraper) | Automated B2B lead generation | 920 leads scraped, quality scoring, 95% phone capture |
 
 ## Get in Touch
 
