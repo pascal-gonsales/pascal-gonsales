@@ -1,34 +1,42 @@
 # Hi, I'm Pascal
 
-AI Implementation Specialist based in Montreal. I build AI systems that solve real business problems - not demos, not proofs of concept, but production tools used by real clients.
+**AI Enablement & Implementation Specialist** based in Montreal. I build AI systems that solve real business problems — not demos, not proofs of concept, but production tools used in real operations.
 
-## What I Build
+## What I'm doing right now
 
-**Multi-Agent AI Systems** - Designed and deployed teams of 4 specialized AI agents that collaborate to produce business intelligence from raw operational data. Tested on 3 live clients with iterative feedback loops.
+Building **WwithAI** — applied AI for restaurant operators. Live at [wwithai-landing.vercel.app](https://wwithai-landing.vercel.app) (custom domain coming). Free Operator DNA + paid Performance Audit + membership workspace for hands-on operators who want AI in their stack.
 
-**Forensic Data Pipelines** - Built a Python pipeline that processes 13,000+ bank transactions across 5 interlinked entities with 99% accuracy. Coordinate-based PDF extraction, bidirectional reconciliation, and immutable audit trails.
+## What I build
 
-**Workflow Automation** - Architected 100+ production n8n workflows covering data processing, API integrations, content generation, and CRM automation.
+**Multi-agent AI systems** — Performance Audit team (4 specialized Claude agents) production-tested with paying customer data. Plus 3 total agent teams / 12 agents in [`restaurant-ai-agents`](https://github.com/pascal-gonsales/restaurant-ai-agents).
 
-**Full-Stack AI SaaS** - Shipped an HR chatbot (Next.js + Supabase + Claude API) with auth, admin dashboards, and bilingual support.
+**Forensic data pipelines** — Python pipeline processing 13,000+ bank transactions across 5 interlinked entities, with multi-format ingestion (CSV + 7 PDF formats), French/English bilingual documents, and Quebec tax law (GST 5% + QST 9.975%). 98% inter-company match rate with full audit trail. See [`forensic-bookkeeping-pipeline`](https://github.com/pascal-gonsales/forensic-bookkeeping-pipeline).
+
+**Full-stack AI SaaS** — Multi-tenant HR chatbot (Next.js 16 + Claude API + Supabase) with auth, RLS, streaming, admin dashboard, and bilingual FR/EN. Open source: [`ai-hr-chatbot`](https://github.com/pascal-gonsales/ai-hr-chatbot). Public demo coming this week.
+
+**Workflow automation** — Production n8n workflows covering data processing, API integrations, content generation, and CRM automation.
+
+## How I build
+
+I run multi-month AI builds with **structured Claude ↔ Codex review cycles** — formal review prompts, append-only decision logs, source-traced commits. The pattern is reproducible across product builds and forensic dossiers. The live operating record will be public on [`ai-hr-chatbot`](https://github.com/pascal-gonsales/ai-hr-chatbot) this week.
 
 ## Background
 
-13 years owning and operating restaurants gave me deep understanding of what businesses actually need from technology. I've managed P&Ls, negotiated leases, built teams, and optimized operations - so when I build AI tools, they're grounded in real operational constraints.
+13 years cofounding and operating a four-concept restaurant group in Montreal: vision, brand strategy, multi-site expansion, and crisis ops through pandemic / labor shortage / inflation / lease disputes / a fire / pivots and relaunches. That operator context is now the foundation of everything I ship.
 
-## Tech Stack
+## Tech stack
 
-`Python` `JavaScript` `Claude API` `OpenAI API` `n8n` `Next.js` `Supabase` `PostgreSQL` `Vercel` `Git`
+`Python` · `JavaScript / TypeScript` · `Claude API` · `OpenAI API` · `Next.js` · `Supabase` · `PostgreSQL` · `n8n` · `MCP` · `Vercel` · `Git`
 
-## Featured Repos
+## Featured repos
 
 | Repo | What | Highlights |
 |------|------|------------|
-| [forensic-bookkeeping-pipeline](https://github.com/pascal-gonsales/forensic-bookkeeping-pipeline) | Financial forensics in Python | 13K txns, 99% PDF accuracy, 98% reconciliation |
-| [restaurant-ai-agents](https://github.com/pascal-gonsales/restaurant-ai-agents) | Multi-agent business intelligence | 3 agent teams (4 agents each), production-tested |
-| [ai-hr-chatbot](https://github.com/pascal-gonsales/ai-hr-chatbot) | Full-stack AI SaaS | Next.js + Claude API + Supabase, bilingual |
-| [restaurant-lead-scraper](https://github.com/pascal-gonsales/restaurant-lead-scraper) | Automated B2B lead generation | 920 leads scraped, quality scoring, 95% phone capture |
+| [forensic-bookkeeping-pipeline](https://github.com/pascal-gonsales/forensic-bookkeeping-pipeline) | Python forensic accounting pipeline | 13K+ txns · 5 entities · 7 PDF formats · 98% inter-co match · anti-drift validation |
+| [ai-hr-chatbot](https://github.com/pascal-gonsales/ai-hr-chatbot) | Full-stack AI HR chatbot | Next.js 16 + Claude API + Supabase RLS · bilingual FR/EN · public demo this week |
+| [restaurant-ai-agents](https://github.com/pascal-gonsales/restaurant-ai-agents) | Multi-agent business intelligence | 3 agent teams · 12 agents · production-tested with paying-customer data |
+| [restaurant-lead-scraper](https://github.com/pascal-gonsales/restaurant-lead-scraper) | Automated B2B lead generation | n8n + Google Places API · 920+ restaurants captured · 95% phone capture |
 
-## Get in Touch
+## Get in touch
 
-pascal.gonsales@gmail.com | Montreal, QC | Bilingual FR/EN
+[`linkedin.com/in/airestohub`](https://www.linkedin.com/in/airestohub) · pascal.gonsales@gmail.com · Montreal, QC · Bilingual FR/EN
