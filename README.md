@@ -8,7 +8,7 @@ Building **WwithAI** — applied AI for restaurant operators. Live at [wwithai-l
 
 ## What I build
 
-**Multi-agent AI systems** — Performance Audit team (4 specialized Claude agents) production-tested with paying customer data. Plus 3 total agent teams / 12 agents in [`restaurant-ai-agents`](https://github.com/pascal-gonsales/restaurant-ai-agents).
+**Multi-agent AI systems** — Performance Audit team (4 specialized Claude agents) tested on real restaurant data. Plus 3 total agent teams / 12 agents in [`restaurant-ai-agents`](https://github.com/pascal-gonsales/restaurant-ai-agents).
 
 **Forensic data pipelines** — Python pipeline processing 13,000+ bank transactions across 5 interlinked entities, with multi-format ingestion (CSV + 7 PDF formats), French/English bilingual documents, and Quebec tax law (GST 5% + QST 9.975%). 98% inter-company match rate with full audit trail. See [`forensic-bookkeeping-pipeline`](https://github.com/pascal-gonsales/forensic-bookkeeping-pipeline).
 
@@ -34,7 +34,7 @@ I run multi-month AI builds with **structured Claude ↔ Codex review cycles** �
 |------|------|------------|
 | [forensic-bookkeeping-pipeline](https://github.com/pascal-gonsales/forensic-bookkeeping-pipeline) | Python forensic accounting pipeline | 13K+ txns · 5 entities · 7 PDF formats · 98% inter-co match · anti-drift validation |
 | [ai-hr-chatbot](https://github.com/pascal-gonsales/ai-hr-chatbot) | Full-stack AI HR chatbot | Next.js 16 + Claude API + Supabase RLS · bilingual FR/EN · [live demo](https://ai-hr-chatbot-one.vercel.app/demo) |
-| [restaurant-ai-agents](https://github.com/pascal-gonsales/restaurant-ai-agents) | Multi-agent business intelligence | 3 agent teams · 12 agents · production-tested with paying-customer data |
+| [restaurant-ai-agents](https://github.com/pascal-gonsales/restaurant-ai-agents) | Multi-agent business intelligence | 3 agent teams · 12 agents · tested on real restaurant data |
 | [restaurant-lead-scraper](https://github.com/pascal-gonsales/restaurant-lead-scraper) | Automated B2B lead generation | n8n + Google Places API · 920+ restaurants captured · 95% phone capture |
 
 ## Get in touch
