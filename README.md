@@ -30,6 +30,10 @@ https://github.com/pascal-gonsales/restaurant-lead-scraper
 
 Claude API, Python, TypeScript and Next.js, Supabase and Postgres, n8n, pytest and vitest, GitHub Actions.
 
+## Security and development
+
+These repositories are built clean-room: they contain only synthetic demo data and no real client, venue, or financial information. Two gates keep them that way. A local pre-commit hook blocks any commit that contains a private real-data token, and a CI workflow (`.github/workflows/secret-scan.yml`) runs gitleaks on every push and pull request and fails on any secret or credential finding.
+
 ## Contact
 
 - Email: pascal.gonsales@gmail.com
