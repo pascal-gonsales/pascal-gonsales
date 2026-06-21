@@ -1,0 +1,36 @@
+# Pascal Gonsales
+
+**AI Solutions Analyst.** I turn messy operational data into AI tools that non-technical teams actually use.
+
+Operator background (years running multi-location restaurants), now building practical AI systems under the brand **WwithAI**. I work the business side of AI adoption: find the real automation opportunity, design the workflow, and ship something a small team can run themselves. Bilingual FR and EN.
+
+## What I build
+
+Three public anchors, each a different slice of applied AI. Every repo is built clean: synthetic demo data only, claims kept honest, no real client data anywhere.
+
+### restaurant-ai-agents (flagship)
+A multi-agent prompt system that turns raw restaurant data into decision-ready reports. The headline is the discipline, not the agents: every agent carries a hard anti-fabrication contract (no invented numbers, source-traced citations, mandatory data-quality notes), and a CI test fails the build if any agent drops its rules. Python, pytest.
+https://github.com/pascal-gonsales/restaurant-ai-agents
+
+### ai-hr-chatbot
+A production-shape HR assistant for frontline staff: a Claude-powered, streaming, tool-using chat with strict "AI is the interface, not the authority" guardrails, multi-tenant data isolation (Postgres row-level security plus application-level ownership checks), and a fully runnable public demo with zero real data. Next.js, TypeScript, Supabase, Claude API, vitest.
+https://github.com/pascal-gonsales/ai-hr-chatbot
+
+### restaurant-lead-scraper
+A B2B lead pipeline that scores and tiers prospects on a transparent 0 to 13 scale. The engineering point: every scoring constant lives once in Python and is interpolated into the generated workflow, with drift-catcher tests that turn CI red if the numbers ever disagree. Python, n8n.
+https://github.com/pascal-gonsales/restaurant-lead-scraper
+
+## How I work
+
+- Operator to builder: I have lived the messy-data, thin-margin reality these tools are built for.
+- Honest by construction: demo data is labeled, claims are not inflated, public repos carry no real client data.
+- Ship the smallest thing that earns trust, then iterate.
+
+## Tech
+
+Claude API, Python, TypeScript and Next.js, Supabase and Postgres, n8n, pytest and vitest, GitHub Actions.
+
+## Contact
+
+- Email: pascal.gonsales@gmail.com
+- WwithAI: https://wwithai-landing.vercel.app
