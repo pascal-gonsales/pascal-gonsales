@@ -13,7 +13,7 @@ A multi-agent prompt system that turns raw restaurant data into decision-ready r
 https://github.com/pascal-gonsales/restaurant-ai-agents
 
 ### ai-hr-chatbot
-A production-shape HR assistant for frontline staff: a Claude-powered, streaming, tool-using chat with strict "AI is the interface, not the authority" guardrails, multi-tenant data isolation (Postgres row-level security plus application-level ownership checks), and a runnable demo with zero real data. Next.js, TypeScript, Supabase, Claude API, vitest.
+A production-shape HR assistant for frontline staff: a Claude-powered, streaming, tool-using chat with strict "AI is the interface, not the authority" guardrails, multi-tenant data isolation (Postgres row-level security plus application-level ownership checks). Next.js, TypeScript, Supabase, Claude API, vitest.
 https://github.com/pascal-gonsales/ai-hr-chatbot
 
 ### restaurant-lead-scraper
