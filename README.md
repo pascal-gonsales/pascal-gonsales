@@ -2,7 +2,7 @@
 
 **AI Solutions Analyst.** I turn messy operational data into AI tools that non-technical teams actually use.
 
-Operator background (years running multi-location restaurants), now building practical AI systems under the brand **WwithAI**. I work the business side of AI adoption: find the real automation opportunity, design the workflow, and ship something a small team can run themselves. Bilingual FR and EN.
+Operator background (years running multi-location restaurants), now building practical AI systems. I work the business side of AI adoption: find the real automation opportunity, design the workflow, and ship something a small team can run themselves. Bilingual FR and EN.
 
 ## What I build
 
@@ -13,7 +13,7 @@ A multi-agent prompt system that turns raw restaurant data into decision-ready r
 https://github.com/pascal-gonsales/restaurant-ai-agents
 
 ### ai-hr-chatbot
-A production-shape HR assistant for frontline staff: a Claude-powered, streaming, tool-using chat with strict "AI is the interface, not the authority" guardrails, multi-tenant data isolation (Postgres row-level security plus application-level ownership checks), and a fully runnable public demo with zero real data. Next.js, TypeScript, Supabase, Claude API, vitest.
+A production-shape HR assistant for frontline staff: a Claude-powered, streaming, tool-using chat with strict "AI is the interface, not the authority" guardrails, multi-tenant data isolation (Postgres row-level security plus application-level ownership checks), and a runnable demo with zero real data. Next.js, TypeScript, Supabase, Claude API, vitest.
 https://github.com/pascal-gonsales/ai-hr-chatbot
 
 ### restaurant-lead-scraper
@@ -37,4 +37,4 @@ These repositories are built clean-room: they contain only synthetic demo data a
 ## Contact
 
 - Email: pascal.gonsales@gmail.com
-- WwithAI: https://wwithai-landing.vercel.app
+- LinkedIn: https://www.linkedin.com/in/pascalgonsales
