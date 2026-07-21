@@ -13,7 +13,7 @@ A multi-agent prompt system that turns raw restaurant data into decision-ready r
 https://github.com/pascal-gonsales/restaurant-ai-agents
 
 ### ai-hr-chatbot
-A production-shape HR assistant for frontline staff: a Claude-powered, streaming, tool-using chat with strict "AI is the interface, not the authority" guardrails, multi-tenant data isolation (Postgres row-level security plus application-level ownership checks). Next.js, TypeScript, Supabase, Claude API, vitest.
+A single-organization HR assistant prototype for frontline staff: a Claude-powered, streaming, tool-using chat with strict "AI is the interface, not the authority" guardrails, and per-user data isolation (Postgres row-level security plus application-level ownership checks on service-role access). Next.js, TypeScript, Supabase, Claude API, vitest.
 https://github.com/pascal-gonsales/ai-hr-chatbot
 
 ### restaurant-lead-scraper
@@ -23,7 +23,8 @@ https://github.com/pascal-gonsales/restaurant-lead-scraper
 ## How I work
 
 - Operator to builder: I have lived the messy-data, thin-margin reality these tools are built for.
-- Honest by construction: demo data is labeled, claims are not inflated, public repos carry no real client data.
+- AI as an accelerator: I build these with heavy AI assistance (Claude Code). My value is choosing the right operational decision, turning domain failure modes into constraints, testing the result, and catching confident errors before they ship. I do not claim unaided engineering authorship.
+- Honest by construction: demo data is labeled, claims are not inflated, scope limits are stated, and public repos carry no real client data.
 - Ship the smallest thing that earns trust, then iterate.
 
 ## Tech
@@ -32,7 +33,7 @@ Claude API, Python, TypeScript and Next.js, Supabase and Postgres, n8n, pytest a
 
 ## Security and development
 
-These repositories are built clean-room: they contain only synthetic demo data and no real client, venue, or financial information. Two gates keep them that way. A local pre-commit hook blocks any commit that contains a private real-data token, and a CI workflow (`.github/workflows/secret-scan.yml`) runs gitleaks on every push and pull request and fails on any secret or credential finding.
+These repositories contain only synthetic demo data and no real client, venue, or financial information. A CI workflow (`.github/workflows/secret-scan.yml`) runs gitleaks on every push and pull request and fails on any secret or credential finding. My local development setup also uses an untracked private-data blocklist that flags my own venture and client names before they can be committed.
 
 ## Contact
 
